@@ -1,0 +1,23 @@
+@import "palette"
+
+.sidebar
+  .sidebar-wrapper
+    background: $primary-color-dark
+
+  .nav li>a
+    margin: 0
+    padding-left: 30px
+    border-radius: 0
+
+  .nav li.active>a
+    background: $accent-color
+
+.sidebar:after,
+body > .navbar-collapse:after
+  background: $primary-color
+
+.navbar .navbar-collapse .navbar-nav li a
+  color: $secondary-text-color
+
+  &:hover
+    color: $accent-color

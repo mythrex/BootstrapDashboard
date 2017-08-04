@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGE,yBAAgB;EACd,UAAU,ECGS,OAA2B;ADDhD,oBAAS;EACP,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,CAAC;AAElB,2BAAgB;EACd,UAAU,ECXS,OAAO;;ADa9B;6BAAe;EAEb,UAAU,EChBW,OAAO;;ADkB9B,yCAAyC;EACvC,KAAK,ECfgB,OAAO;EDiB5B,+CAAO;IACL,KAAK,ECrBc,OAAO",
+"sources": ["../sass/dashboard.sass","../sass/_palette.sass"],
+"names": [],
+"file": "dashboard.css"
+}

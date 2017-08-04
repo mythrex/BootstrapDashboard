@@ -1,0 +1,19 @@
+.sidebar .sidebar-wrapper {
+  background: #3b216a; }
+.sidebar .nav li > a {
+  margin: 0;
+  padding-left: 30px;
+  border-radius: 0; }
+.sidebar .nav li.active > a {
+  background: #03A9F4; }
+
+.sidebar:after,
+body > .navbar-collapse:after {
+  background: #673AB7; }
+
+.navbar .navbar-collapse .navbar-nav li a {
+  color: #757575; }
+  .navbar .navbar-collapse .navbar-nav li a:hover {
+    color: #03A9F4; }
+
+/*# sourceMappingURL=dashboard.css.map */
