@@ -2,15 +2,20 @@
 
 .sidebar
   .sidebar-wrapper
-    background: $primary-color-dark
+    background: $primary-color
 
   .nav li>a
     margin: 0
     padding-left: 30px
     border-radius: 0
 
+    &:hover
+      background: $accent-color-light
+      
   .nav li.active>a
-    background: $accent-color
+    background: $primary-color-dark
+    border-right: 20px solid $accent-color
+
 
 .sidebar:after,
 body > .navbar-collapse:after

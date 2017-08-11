@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 body {
   font-family: Roboto, sans-serif; }
 
@@ -32,7 +31,7 @@ main {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #03A9F4; }
 
 option:focus, option:active, option:checked {
-  background: linear-gradient(#02638f, #02638f); }
+  background: linear-gradient(#03A9F4, #03A9F4); }
 
 label {
   cursor: pointer; }
@@ -98,6 +97,13 @@ label {
 
 .card .card-text {
   color: #757575; }
+.card .card-header {
+  background: #673AB7;
+  color: White; }
+  .card .card-header a {
+    color: White; }
+    .card .card-header a:hover {
+      color: #f1f1f1; }
 
 .card-inverse {
   color: white; }
@@ -107,5 +113,26 @@ label {
 .bg-app-color {
   background-color: #673AB7;
   color: White; }
+
+.alert-info {
+  background: #9f80d7;
+  border: 1px solid #9f80d7;
+  color: white; }
+
+.pagination .page-item .page-link {
+  color: #02638f; }
+
+.progress .progress-bar {
+  background-color: #673AB7; }
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background: #673AB7;
+  color: White; }
+
+.modal-dialog .modal-content .modal-header {
+  background: #673AB7;
+  color: White; }
+  .modal-dialog .modal-content .modal-header .close {
+    color: White; }
 
 /*# sourceMappingURL=style.css.map */

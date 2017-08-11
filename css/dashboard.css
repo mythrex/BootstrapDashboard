@@ -1,11 +1,14 @@
 .sidebar .sidebar-wrapper {
-  background: #3b216a; }
+  background: #673AB7; }
 .sidebar .nav li > a {
   margin: 0;
   padding-left: 30px;
   border-radius: 0; }
+  .sidebar .nav li > a:hover {
+    background: #60ccfd; }
 .sidebar .nav li.active > a {
-  background: #03A9F4; }
+  background: #3b216a;
+  border-right: 20px solid #03A9F4; }
 
 .sidebar:after,
 body > .navbar-collapse:after {
